@@ -126,6 +126,12 @@
                 <configuration>
                     <preparationGoals>clean install</preparationGoals>
                 </configuration>
+                <artifacts>
+                 <artifact>
+                   <file>target/${pom.artifactId}-${pom.version}.tar.gz</file>
+                   <type>tar.gz</type>
+                 </artifact>
+               </artifacts>
             </plugin>
 
             <plugin>
